@@ -1,7 +1,7 @@
 import  express  from "express";
 import bodyParser from "body-parser";
 import  path  from "path";
-import Form from "./models/posts.js";
+import Form from "./model/posts.js";
 import connection from "./db/index.js";
 
 
