@@ -27,5 +27,5 @@ app.post("/adduser" , async(req ,res ) => {
 })
 
 connection 
-.then(() => app.listen(3000, ()=> console.log("server has started")))
+.then(() => app.listen(8000, ()=> console.log("server has started")))
 .catch((err) =>{console.log("error")})
